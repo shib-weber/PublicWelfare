@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: justify;
+    background: linear-gradient(90deg,blue,#1f1f1f);
+}
+.notice{
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    margin-top: 30%;
+}
+#bt{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 90%;
+    border-radius: 2rem;
+    width: 100px;
+    height: 50px;
+    color: blue;
+    background-color: white;
+}

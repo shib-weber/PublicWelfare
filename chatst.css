@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg,blue,#1f1f1f);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: -1rem;
+    text-align: center;
+    color: white;
+}
+.rest1{
+    #bt,#info,#post-display,#post-input{
+        visibility: hidden;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: left;
+}
+#post-display {
+    width: 80%;
+    height: 60vh;
+    overflow-y: auto;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+}
+#post-input {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+.box2{
+    border-radius: 2rem;
+    top: 0%;
+    position: absolute;
+    margin-left: 33rem;
+    width: 300px;
+    height: 35vh;
+    transform: scale(0.1);
+    background:linear-gradient(45deg,white,whitesmoke);
+    color: blue;
+    font-size: medium;
+    font: bold;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 2);
+    visibility: hidden;
+    transition: 2s;
+    transition-property: all;
+}
+.bb{
+    margin-top: -1rem;
+    margin-left: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+.box2 #f1{
+    border-radius: 1rem;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 12px;
+}
+.box2 #f2{
+    border-radius: 1rem;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 12px;
+}
+.box2 #f1:hover{
+    cursor: pointer;
+    border-color: lightgreen;
+}
+.box2 #f2:hover{
+    cursor: pointer;
+    border-color: lightgreen;
+}
+.box2 img{
+    margin-top: -2rem;
+    height: 5rem;
+    width: 5rem;
+    margin-left: 0rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 2);
+}
+.pop_up1{
+    top: 30%;
+    visibility: visible;
+    transform: scale(1);
+    
+}
+.right{
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+.left{
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#bt{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 90%;
+    border-radius: 2rem;
+    width: 100px;
+    height: 50px;
+    color: blue;
+    background-color: white;
+}

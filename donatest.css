@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(90deg, blue ,#1f1f1f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#dt{
+    margin-top: 5%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 2rem;
+}
+#bt{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 90%;
+    border-radius: 2rem;
+    width: 100px;
+    height: 50px;
+    color: blue;
+    background-color: white;
+}
+h1{
+    position: absolute;
+    color: white;
+    margin-top: 25%;
+}
+.info{
+    margin-top: 28%;
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: larger;
+}
